@@ -44,6 +44,23 @@ header ul li a:hover {
   background-color: #FFC300;
   color: white;
 }
+table, th, td {
+  border:1px solid black;
+}
+
+th{
+	background-color: yellow;
+}
+
+.org{
+	margin: -5% 30%;
+}
+
+.tabel2{
+	margin: 7% 30%;
+	width: 50%;
+	border: 1px solid black;
+}
 .active {
   background-color: #FFC300;
   color: white;
@@ -61,11 +78,6 @@ section h1 {
   text-align: center;
   padding:20px 0;
   color: #FFC300;
-}
-.about p {
-  color: #666;
-  word-spacing: 2px;
-  line-height: 25px;
 }
 .kiri {
   float: left;
@@ -102,11 +114,7 @@ section h3 {
   color: #FFC300;
   margin-bottom: 20px;
 }
-.about p {
-  color: #666;
-  word-spacing: 2px;
-  line-height: 25px;
-}
+
 .label {
   background-color: #FFC300;
   color: white;
