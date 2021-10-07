@@ -140,11 +140,3 @@ section h3 {
 .box .col-4 h4 {
 	margin:20px 0;
 }
-.vid{
-	margin:-50% 50%;
-	position:absolute;
-	background-color: #FFC300;
-}
-iframe{
-	margin: 5% 15%;
-}
