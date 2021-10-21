@@ -1,0 +1,427 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+  }
+ a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+.container{
+    width:80%;
+    margin:0 auto;
+  }
+.container:after {
+    content:'';
+    display: block;
+    clear: both;
+  }
+
+.logo {
+    position: absolute;
+    width: 153px;
+    height: 55px;
+    left: 39px;
+    top: 15px;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+nav {
+    background: #242222;
+}
+nav h1 {
+    float: left;
+    padding:20px 0;
+  }
+nav ul {
+    float: right;
+  }
+nav ul li {
+    display: inline-block;
+  }
+nav ul li a {
+    padding:30px 25px;
+    display: inline-block;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+nav ul li a:hover {
+    background-color: #AC0F0F;
+  }
+body {
+    position: relative;
+    background: #000000;
+ }
+img{
+    position: absolute;
+    width: 180px;
+    height: 367px;
+    left: 1200px;
+    top: 145px;
+ }
+.linear {
+    position: absolute;
+    width: 180px;
+    height: 362px;
+    left: 1200px;
+    top: 150px;
+    background: linear-gradient(180deg, #424040 0%, rgba(66, 64, 64, 0.959733) 25.31%, rgba(66, 64, 64, 0.929167) 55.52%, rgba(66, 64, 64, 0) 100%);
+}
+.text h2 {
+    position: absolute;
+    width: 342px;
+    height: 52px;
+    left: 188px;
+    top: 202px;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #AC0F0F;
+    }
+.text h1 {
+    position: absolute;
+    width: 332px;
+    height: 60px;
+    left: 188px;
+    top: 254px;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #AC0F0F;
+}
+.subtitle{
+    position: absolute;
+    width: 656px;
+    height: 60px;
+    left: 188px;
+    top: 314px;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 70px;
+    color: #AC0F0F;
+}
+p{
+    position: absolute;
+    width: 550px;
+    height: 69px;
+    left: 188px;
+    top: 391px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #C4C4C4;
+}
+.layout{
+    position: absolute;
+    width: 923px;
+    height: 606px;
+    left: 115px;
+    top: 684px;
+    background: #AC0F0F;
+}
+.over h1{
+    position: absolute;
+    width: 204px;
+    height: 73px;
+    left: 499px;
+    top: 694px;
+    
+    /* Heading 1 */
+    
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 69px;
+    
+    color: #FFFFFF;
+}
+.over hr {
+    
+position: absolute;
+width: 777px;
+height: 0px;
+left: 188px;
+top: 766px;
+
+border: 3px solid #FFFFFF;
+transform: rotate(0.07deg);
+}
+.over p {
+    position: absolute;
+width: 596px;
+height: 91px;
+left: 272px;
+top: 781px;
+font-family: Kanit;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.table{
+    position: absolute;
+    top: 900px;
+    width: 50%;
+    left: 200px;
+    margin: 3em auto;
+    color: rgb(0, 0, 0);
+    border: 1px solid #222;
+    border-collapse: collapse;
+    font-family: Contrail One;
+    margin:auto;
+}
+
+
+.table thead th{
+    background-color: rgb(0, 0, 0);
+    text-indent: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.table tbody {
+    background-color: #C4C4C4;
+    text-indent: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+}
+
+.table tbody tr:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+th, td{
+    padding: 15px;
+    text-align: left;
+}
+
+.table tbody td{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    text-indent: 30px;
+    
+} 
+/* contact */
+.layoutkontak{
+    position: absolute;
+    width: 923px;
+    height: 606px;
+    left: 115px;
+    top: 1606px;
+    
+    /* red */
+    
+    background: #AC0F0F;
+}
+
+.kontak h1{
+    position: absolute;
+    width: 278px;
+    height: 73px;
+    left: 165px;
+    top: 1638px;
+    
+    /* Heading 1 */
+    
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 69px;
+    
+    color: #FFFFFF;
+}
+
+.confrim button{
+    margin-top: 20px;
+    width: 10%;
+    margin-right: 10px;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 5px;
+    color: white;
+}
+.email {
+    position: absolute;
+    width: 76px;
+    height: 31px;
+    left: 165px;
+    top: 1710px;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    }
+
+.email label {   
+width: 76px;
+height: 31px;
+font-family: Kanit;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+padding: 5px;
+color: #FFFFFF;
+}
+
+.email input {
+width: 824px;
+height: 65px;
+background: #C4C4C4;
+border-radius: 20px;
+padding: 5px;
+}
+
+
+.pesan {
+    /* Pesan */
+position: absolute;
+width: 76px;
+height: 31px;
+left: 165px;
+top: 1842px;
+font-family: Kanit;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+color: #FFFFFF;
+}
+
+.pesan textarea {
+    width: 824px;
+    height: 220px;
+    background: #C4C4C4;
+    border-radius: 20px;
+    padding: 5px;
+    }
+
+.pesan label {   
+    width: 76px;
+    height: 31px;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 5px;
+    color: #FFFFFF;
+    }    
+
+.submit {
+    position: absolute;
+    width: 113px;
+    height: 45px;
+    left: 165px;
+    top: 2143px;
+    background: #C4C4C4;
+    border-radius: 20px;
+}   
+
+.reset {
+    position: absolute;
+width: 97px;
+height: 45px;
+left: 330px;
+top: 2143px;
+background: #C4C4C4;
+border-radius: 20px;
+}
+
+.layoutabout{
+    position: absolute;
+width: 923px;
+height: 1000px;
+left: 114px;
+top: 2528px;
+
+/* abu1 */
+
+background: #C4C4C4;
+}
+
+.profil iframe {
+    position: absolute;
+width: 792px;
+height: 455px;
+left: 180px;
+top: 2756px;
+background: url(image.png);
+}
+
+.aboutred{
+    position: absolute;
+width: 850px;
+height: 548px;
+left: 151px;
+top: 2710px;
+
+/* red */
+
+background: #AC0F0F;
+}
+
+.about h1 {
+    /* About me */
+
+
+position: absolute;
+width: 278px;
+height: 73px;
+left: 115px;
+top: 2455px;
+
+/* Heading 1 */
+
+font-family: Kanit;
+font-style: normal;
+font-weight: 600;
+font-size: 46px;
+line-height: 69px;
+
+color: #FFFFFF;
+
+}
+.about p {
+    position: absolute;
+width: 777px;
+height: 157px;
+left: 164px;
+top: 2553px;
+
+font-family: Kanit;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+
