@@ -1,0 +1,65 @@
+.ketengah{
+    margin: 10px auto;
+    width: 1150px;
+    margin-top: 250px;
+}
+
+.kotak{
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    float: left;
+}
+
+@keyframes animasi_kotak{
+    from{ background: blue;}
+    to{background: red;}
+}
+
+.animation1{
+    background: powderblue;
+    width: 200px;
+    height: 200px;
+    animation-name: animasi_kotak1;
+    animation-duration: 5s;
+}
+@keyframes animasi_kotak1{
+    from{ background: powderblue;}
+    to{background: greenyellow;}
+}
+
+.animation2{
+    background: green;
+    width: 200px;
+    height: 200px;
+    animation-name: animasi_kotak2;
+    animation-duration: 5s;
+}
+@keyframes animasi_kotak2{
+    from{ background: green;}
+    to{background: red;}
+}
+
+.animation3{
+    background: blue;
+    width: 200px;
+    height: 200px;
+    animation-name: animasi_kotak3;
+    animation-duration: 5s;
+}
+@keyframes animasi_kotak3{
+    from{ background: blue;}
+    to{background: orange;}
+}
+
+.animation4{
+    background: orange;
+    width: 200px;
+    height: 200px;
+    animation-name: animasi_kotak4;
+    animation-duration: 5s;
+}
+@keyframes animasi_kotak4{
+    from{ background:orange;}
+    to{background: red;}
+}

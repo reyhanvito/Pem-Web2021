@@ -1,0 +1,25 @@
+.kotak1{
+    background: #fcfcfc;
+    padding: 20px;
+    float: left;
+    margin: 50px;
+    width: 150px;
+    height: 150px;
+    margin-top: 340px;
+
+}
+.kotak2{
+    background: orange;
+    color: white;
+    padding: 20px;
+    float: left;
+    margin: 50px;
+    width: 150px;
+    height: 150px;
+    margin-left: 100px;
+    margin-top: 340px;
+    -ms-transform: scale(2,3); /* Support IE 9 */
+    -webkit-transform: scale(2,3); /* support Safari */
+    transform: scale(2,2); /* Standard syntax */
+}
+    
